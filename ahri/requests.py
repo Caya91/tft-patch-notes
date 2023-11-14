@@ -16,7 +16,7 @@ def __init__():
 
 
 def ScrapePatchNotes():
-    patch_notes_url = "https://na.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    patch_notes_url = "https://www.leagueoflegends.com/en-us/news/tags/teamfight-tactics-patch-notes/"
     patch_notes_prefix = "https://na.leagueoflegends.com"
 
     found_patches = []
