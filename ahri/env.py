@@ -6,7 +6,7 @@ from colorama import Fore
 
 def __init__():
     global env
-    env = dotenv_values("../.env")
+    env = dotenv_values()
     CheckForEnvironmentVariables()
 
 
@@ -14,7 +14,7 @@ def CheckForEnvironmentVariables():
     print("Checking Envionment Variables... ", end="")
     
     required = [
-        "https://discord.com/api/webhooks/1173834770728357938/k8cPjQbhKWM_Y3qAiREIddlxFwhSC-96c18snX4cX7c_axcXY8vWtgR3UaABpaCt5UXz"
+        "WEBHOOK_URL",
     ]
 
     # If a required variable is missing, the entire program will exit
