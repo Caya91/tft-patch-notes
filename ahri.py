@@ -12,7 +12,7 @@ def GetCurrentTimeString():
 while True:
     print(Fore.YELLOW + "\n[{}]".format(GetCurrentTimeString()) + Fore.WHITE)
 
-    ahri.requests.ResolveFailedPosts();
+    ahri.requests.ResolveFailedPosts()
 
     patches = []
     patches = ahri.requests.ScrapePatchNotes()
