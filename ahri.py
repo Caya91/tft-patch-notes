@@ -33,4 +33,4 @@ while True:
         print("No new Patch Note entries have been found.")
 
     print(Fore.YELLOW + "All done!\n\n" + Fore.WHITE)
-    sleep(int(ahri.env.Get("QUERY_RATE",600)))
+    sleep(int(ahri.env.Get("QUERY_RATE",12000)))
